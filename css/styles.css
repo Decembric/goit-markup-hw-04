@@ -373,7 +373,7 @@ body {
 
 .footer {
   background-color: var(--background-hero-color);
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 60px;
 }
 
@@ -400,6 +400,10 @@ body {
   display: flex;
 }
 
+.address-box {
+  padding-top: 60px;
+}
+
 .footer-list {
   margin-right: 70px;
 }
@@ -411,6 +415,7 @@ body {
 
 .welcome-box {
   text-align: left;
+  padding-top: 75px;
 }
 
 .contact {
