@@ -377,7 +377,7 @@ body {
 
 .clients-link:hover,
 .clients-link:focus {
-  border: 1px solid var(--hover-text-color);
+  border: var(--hover-text-color);
 }
 
 /* --------Секция футер---------- */
@@ -406,14 +406,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-background-color);
+  margin-right: 70px;
 }
 
 .footer-box {
   display: flex;
-}
-
-.footer-list {
-  margin-right: 70px;
 }
 
 .welcome-list {
@@ -577,4 +574,8 @@ body {
 .portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-link {
+  display: block;
 }
