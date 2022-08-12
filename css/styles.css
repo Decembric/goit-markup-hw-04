@@ -377,7 +377,7 @@ body {
 
 .clients-link:hover,
 .clients-link:focus {
-  border: var(--hover-text-color);
+  border-color: var(--hover-text-color);
 }
 
 /* --------Секция футер---------- */
@@ -401,11 +401,10 @@ body {
 }
 
 .footer-address {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--main-background-color);
+}
+
+.address-box {
   margin-right: 70px;
 }
 
@@ -432,6 +431,8 @@ body {
 
 .footer-mail,
 .footer-tel {
+  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -439,10 +440,12 @@ body {
 }
 
 .adress {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-background-color);
+  font-style: normal;
 }
 
 .welcome-title {
